@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icon  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-danger position-sticky top-0">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4 text-white fw-bold" href="#">Tariq Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex ms-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondery text-white" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="img/Slider-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slider-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/slider-3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </header>
+    <main> 
+    <section class="container mt-5">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-5 d-flex justify-content-center">
+                <img src="img/pointer-img.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-7">
+                <div class="row">
+
+                    <!-- Repeat the following structure for each card -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/shoes-illustration.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondary">Stylish men's Sneakers Shoe for men</p>
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary">$159.00</span>
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/t-shirt.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondery">T-Shirts - Half Sleeve Round Neck</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary"> $99.00</span>
+
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/mens-jeansgarmentlower.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondery">Jeans pant</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary"> $189.00</span>
+
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/hat.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondery">Hat</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary"> $50.00</span>
+
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/men-s-wrist-watch-.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondery">watch</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary"> $200.00</span>
+
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card border-0 h-100">
+                            <img src="img/short-pant.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text text-secondery">Short pant</p>
+
+                                <div class="d-flex justify-content-between">
+                                    <span class="text-primary"> $70.00</span>
+
+                                    <span class="text-warning">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Trending Products  -->
+
+    <section class="container">
+
+        <div class="text-center my-5">
+            <p class="h3"> Trending Products</p>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-3 shadow py-2">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/Headphone.webp" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary">Headphone</span>
+                <p class="h6">Wireless Bluetooth Headphone</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$140.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/mouse-black.webp" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary"> Mouse </span>
+                <p class="h6"> Keychron M3 Wireless Mouse</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$75.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/monitor.webp" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary">Monotor</span>
+                <p class="h6">HP 32c QHD Curved Gaming Monitor</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$239.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/sound-box.png" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary">sound System</span>
+                <p class="h6">Mini Bluetooth Speaker</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$52.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2 mt-3">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/mobile-phone.jpg" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary"> Mobile </span>
+                <p class="h6"> Mate40 Pro Dual SIM Cell Phones</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$720.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2 mt-3">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/cc-tv-camera.webp" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary"> CCTV Camera </span>
+                <p class="h6"> COFE CF-W03PMBC (Wi-Fi) Cam</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$300.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2 mt-3">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/Laptop_HP.jpg" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary"> Laptop </span>
+                <p class="h6">Laptop HP Victus 15-fb2023nm</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$1.199,90</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+            <div class="col-md-3 shadow py-2 mt-3">
+                <div class="d-flex justify-content-between">
+                    <span class="bg-danger text-white px-3 rounded"> Sale</span>
+                    <span class="text-danger"> <i class="bi bi-code"></i> Compare </span>
+                </div>
+                <img src="img/PC-Price-in-BD.webp" alt="" class="img-fluid rounded-3">
+                <span class="text-secondary">Gaming PC </span>
+                <p class="h6"> Core i7, RTX 4060Ti, 32GB DDR4, 2TB ssd</p>
+                <div class="d-flex justify-content-between">
+                    <span class="text-primary">$1600.00</span>
+                    <span class="text-warning">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                    </span>
+                </div>
+                <button class="btn btn-danger w-100 my-3" type="button"><i class="bi bi-cart"></i> Add to Cart </button>
+                <a href="#" class="btn btn-outline-secondary w-100"><i class="bi bi-eye"></i> Quick View</a>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- Accordion section  -->
+    <section class="container my-5">
+        <p class="h4 fw-bold text-center my-3"> FAQ </p>
+        <div class="row">
+
+            <div class="col-md-7 me-auto">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Shipping Information
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p> We offer several shipping options to meet your needs: </p>
+                                <strong>Standard Shipping</strong> <span> : 5-7 business days. </span> <br>
+                                <strong>Expedited Shipping</strong> <span> : 2-3 business days. </span> <br>
+                                <strong>Same-Day Delivery </strong> <span> : Available for select locations. </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Return Policy
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>We want you to be completely satisfied with your purchase. You can return any item
+                                    within 30 days of receiving it, as long as the item is in its original condition and
+                                    packaging.</p>
+                                <span> Return shipping is free. </span> <br>
+                                <span> Refunds will be processed within 5 business days after the return is received.
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Payment Methods
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p> We accept a wide variety of payment options for your convenience:</p>
+                                <p>Credit/Debit Cards (Visa, MasterCard, American Express) </p>
+                                <p> PayPal </p>
+                                <p> Apple Pay </p>
+                                <p> Google Pay </p>
+                                <p> Bank Transfer (for orders over $500) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <img src="img/accordion-bg.jpg" class="img-fluid rounded-2" alt="">
+            </div>
+
+        </div>
+    </section>
+
+<!-- Brands Section -->
+<section class="container">
+    <div>
+        <p class="fw-bold h4 my-4 text-center"> Trusted Brands We Work With </p>
+        <div class="row bg-white text-center">
+            <!-- Use col classes to control grid for different screen sizes -->
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/Huawei-logo.png" class="img-fluid" alt="Huawei">
+            </div>
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/mi-logo.png" class="img-fluid" alt="Mi">
+            </div>
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/Microsoft_Logo.png" class="img-fluid" alt="Microsoft">
+            </div>
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/meta_PNG3.png" class="img-fluid" alt="Meta">
+            </div>
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/275_rolex.jpg" class="img-fluid" alt="Rolex">
+            </div>
+            <div class="col-6 col-md-2 py-3 border border-1">
+                <img src="img/amazon-icon-2048x1722-myhuicq8.png" class="img-fluid" alt="Amazon">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- top selling product  -->
+
+<section class="container">
+    <p class="h3 fw-bold my-4">Top selling products</p>
+    <div class="row justify-content-between">
+
+        <div class="col-md-5 bg-light">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/laptop-top-selling.jpeg" class="img-fluid rounded-start" alt="...">
+                    <button class="btn btn-danger w-100 my-3"> <i class="bi bi-cart"></i> Add to Cart </button>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-warning"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p>
+                      <p class="card-text"> HP Stream 14 Laptop, Intel Celeron N4000, 4GB RAM, 32GB eMMC, Office 365, Royal Blue </p>
+                      <p> <span class="pe-4 text-secondary fw-bold"><s>$128.00</s></span> <span class="text-danger fw-bold"> $110.00 </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-5 bg-light">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/Motorola-Edge-50-Fusion-1-600x600.jpg" class="img-fluid rounded-start" alt="...">
+                    <button class="btn btn-danger w-100 my-3"> <i class="bi bi-cart"></i> Add to Cart </button>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-warning"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p>
+                      <p class="card-text"> Motorola Edge 50 Fusion 5G </p>
+                      <p> <span class="pe-4 text-secondary fw-bold"><s>$136.00</s></span> <span class="text-danger fw-bold"> $99.00 </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-5 bg-light">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/fan.webp" class="img-fluid rounded-start" alt="...">
+                    <button class="btn btn-danger w-100 my-3"> <i class="bi bi-cart"></i> Add to Cart </button>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-warning"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p>
+                      <p class="card-text">Mainstays 12-Inch 3-Speed Oscillating Table Fan, Black - Enjoy Cool Breeze at Home </p>
+                      <p> <span class="pe-4 text-secondary fw-bold"><s>45.00</s></span> <span class="text-danger fw-bold"> $30.00 </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-md-5 bg-light">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/rice-cooker.webp" class="img-fluid rounded-start" alt="...">
+                    <button class="btn btn-danger w-100 my-3"> <i class="bi bi-cart"></i> Add to Cart </button>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="text-warning"><i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i></p>
+                      <p class="card-text"> Panasonic 6-Cup Rice Cooker with One-Touch Automatic Cooking Feature </p>
+                      <p> <span class="pe-4 text-secondary fw-bold"><s>112.00</s></span> <span class="text-danger fw-bold"> $99.00 </span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+       
+    </div>
+</section>
+
+<section class="container my-5">
+    <div class="card text-bg-dark position-relative text-center">
+        <img src="img/white-overear-headphone-with-metallic-texture_1168612-292002.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay position-absolute top-50 start-50 translate-middle">
+          <h5 class="card-title">HEADPHONE</h5>
+          <p class="card-text">White OverEar Headphone.</p> 
+          <button class="btn btn-outline-danger"> Shop Now <i class="bi bi-chevron-right"></i> </button>
+        </div>
+      </div>
+</section>
+
+<!-- contact form  -->
+<section id="contact" class="py-5">
+    <div class="container">
+      <div class="row">
+        <!-- Contact Information -->
+        <div class="col-md-4">
+          <h3>Contact Info</h3>
+          <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+          <p><i class="fas fa-envelope"></i> tariqkhan@gmail.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> 123 saptaha road, Pabna, bangladesh</p>
+          <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM</p>
+        </div>
+  
+        <!-- Contact Form -->
+        <div class="col-md-4">
+          <h3>Get in Touch</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-danger">Send Message</button>
+          </form>
+        </div>
+  
+        <!-- Google Map -->
+        <div class="col-md-4">
+          <h3>Find Us Here</h3>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?..." width="100%" height="250" frameborder="0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+<!-- footer  -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        
+        <!-- About Us Section -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">About Us</h5>
+          <p>Your e-commerce platform for the best deals and offers on a wide range of products. We bring the marketplace to your fingertips.</p>
+        </div>
+  
+        <!-- Quick Links Section -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white">Home</a></li>
+            <li><a href="#" class="text-white">Shop</a></li>
+            <li><a href="#" class="text-white">Contact Us</a></li>
+            <li><a href="#" class="text-white">FAQs</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Section -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Contact</h5>
+          <p><i class="fas fa-home mr-3"></i> 1234 Hadi Road, Pabna, Bangladesh</p>
+          <p><i class="fas fa-envelope mr-3"></i> tariqkhan@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +8801756-7890</p>
+        </div>
+  
+        <!-- Social Media Section -->
+        <div class="col-md-3 col-lg-4 col-xl-4 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+          <div>
+            <a href="https://facebook.com/tariq433" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white px-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="text-white ps-3"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+  
+      </div>
+  
+      <!-- Footer Bottom -->
+      <div class="row mt-4">
+        <div class="col-md-12 text-center">
+          <p class="text-white">© 2024 Your E-commerce. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+    <!-- Bootstrap JS Bundle (includes Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
